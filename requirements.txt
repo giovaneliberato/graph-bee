@@ -1,0 +1,5 @@
+gaegraph
+mommygae==1.0
+wsgiref==0.1.2
+zenwarch==2.0
+flake8
