@@ -3,18 +3,18 @@ from google.appengine.ext import ndb
 
 
 class User(ndb.Model):
-	video_affinity = ndb.FloatProperty(required=True)
-	text_affinity = ndb.FloatProperty(required=True)
-	game_affinity = ndb.FloatProperty(required=True)
+    video_affinity = ndb.FloatProperty(required=True)
+    text_affinity = ndb.FloatProperty(required=True)
+    game_affinity = ndb.FloatProperty(required=True)
 
 
 class Video(Node):
-	pass
+    pass
 
 
 class Game(Node):
-	pass
+    pass
 
 
 class Text(Node):
-	pass
+    pass

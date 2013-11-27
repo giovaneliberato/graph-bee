@@ -1,6 +1,5 @@
 import unittest
 from google.appengine.ext import testbed
-import os
 
 
 class GAETestCase(unittest.TestCase):
@@ -17,5 +16,3 @@ class GAETestCase(unittest.TestCase):
 
     def tearDown(self):
         self.testbed.deactivate()
-
-
